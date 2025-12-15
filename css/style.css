@@ -56,3 +56,10 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.fa-solid {
+    color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
