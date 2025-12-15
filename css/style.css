@@ -18,11 +18,15 @@ body {
     text-align: center;
     padding-top: 5em;
     padding-bottom: 5em;
+    box-shadow: 30px 30px 30px rgba(0,0,0,0.2);
+    
+
 }
 
 .hero {
     padding-bottom: 1em ;
     font-weight: normal;
+    padding-top: 2em;
 }
 
 .slogan {
@@ -30,9 +34,26 @@ body {
 }
 
 .intro_text {
-
+    padding-bottom: 2em;
 }
 
 .phoria_Img {
+    padding-bottom: 1em;
+}
+
+.merch_btn {
+    display: flex;
+    margin-left: 8.5em;
+    margin-bottom: 1em;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 10px 0px 50px rgba(0,0,0,0.2);
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-decoration: none;
+    color: black;
 
 }
