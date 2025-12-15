@@ -11,4 +11,28 @@
 body {
     background-color: #EDD4C0;
     color: black;
+    text-align: center;
+}
+
+.header_Phoria {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.hero {
+    padding-bottom: 1em ;
+    font-weight: normal;
+}
+
+.slogan {
+    padding-bottom: 1em;
+}
+
+.intro_text {
+
+}
+
+.phoria_Img {
+
 }
