@@ -41,10 +41,12 @@ body {
 
 .phoria_Img {
     padding-bottom: 1em;
+    padding-left: 10em;
 }
 
-.merch_btn {
+.merch_btn a{
     display: flex;
+    text-align: center;
     margin-left: 8em;
     margin-bottom: 1em;
     width: fit-content;
@@ -64,6 +66,7 @@ body {
     padding-top: 1em;
     padding-bottom: 1em;
     font-size: 2em;
+    align-items: center;
 }
 
 /*dit is de regenjas css */
@@ -101,7 +104,7 @@ body {
 }
 
 
-.winkelmand_btn {
+.winkelmand_btn a{
     margin-top: 2em;
     margin-left: 8em;
     margin-bottom: 1em;
@@ -116,22 +119,34 @@ body {
     color: black;
 }
 
-.back-btn {
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: transparent;
-  text-decoration: none;
-
+.winkelmand_btn a {
+    text-decoration: none;
+     display: flex;
 }
+
+.phoria_Img {
+  display: block;
+}
+
+.back-btn {
+  position: absolute;
+  left: 2em;                  
+  top: 42%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+.back-btn a {
+  font-size: 2em;
+  color: #151E3F;
+}
+
 
 /*dit is de totebag css */
 
 .totebag_Img {
     margin-bottom: 2em;
+    margin-top: 3em;
 }
 
 .P_totebag{
@@ -142,6 +157,40 @@ body {
     margin-bottom: 2em;
 }
 
-.winkelmand_btn{
+.winkelmand_btn a{
     margin-left: 9em;
+    text-decoration: none;
+    display: flex;
+}
+
+
+/*dit is de phoria sticker css*/
+
+.phoriasticker_Img{
+    background-color: #151E3F;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+
+.P_sticker{
+    margin-bottom: 2em;
+    
+}
+
+.prijs{
+    padding-left: 3.4em;
+}
+
+.maten_phoria {
+    margin-bottom: 1em;
+    text-align: left;
+    padding-left: 10.5em;
+}
+
+.maten-rij{
+    
 }
