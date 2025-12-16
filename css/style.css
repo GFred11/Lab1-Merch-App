@@ -14,6 +14,8 @@ body {
     text-align: center;
 }
 
+    /*dit is de welkompage css */
+
 .header_Phoria {
     text-align: center;
     padding-top: 5em;
@@ -63,6 +65,8 @@ body {
     padding-bottom: 1em;
     font-size: 2em;
 }
+
+/*dit is de regenjas css */
 
 .regenjas_Img {
     margin-top: 3em;
@@ -122,4 +126,22 @@ body {
   background-color: transparent;
   text-decoration: none;
 
+}
+
+/*dit is de totebag css */
+
+.totebag_Img {
+    margin-bottom: 2em;
+}
+
+.P_totebag{
+    margin-bottom: 2em;
+}
+
+.prijs {
+    margin-bottom: 2em;
+}
+
+.winkelmand_btn{
+    margin-left: 9em;
 }
