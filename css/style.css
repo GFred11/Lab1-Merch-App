@@ -12,14 +12,15 @@ body {
     background-color: #EDD4C0;
     color: black;
     text-align: center;
+    height: 1000px;
 }
 
     /*dit is de welkompage css */
 
 .header_Phoria {
     text-align: center;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     box-shadow: 30px 30px 30px rgba(0,0,0,0.2);
     
 
@@ -44,9 +45,9 @@ body {
     padding-left: 10em;
 }
 
-.merch_btn a{
+.merch_btn {
     display: flex;
-    text-align: center;
+    margin-top: 2em;
     margin-left: 8em;
     margin-bottom: 1em;
     width: fit-content;
@@ -55,9 +56,8 @@ body {
     box-shadow: 10px 0px 50px rgba(0,0,0,0.2);
     padding-right: 3em;
     padding-left: 3em;
-    padding-bottom: 2em;
-    padding-top: 2em;
-    text-decoration: none;
+    padding-bottom: 1em;
+    padding-top: 1em;
     color: black;
 }
 
@@ -174,11 +174,11 @@ body {
     padding-bottom: 1em;
     margin-bottom: 2em;
     margin-top: 3em;
+    border-radius: 1em;
 }
 
 .P_sticker{
-    margin-bottom: 2em;
-    
+    margin-bottom: 1em;
 }
 
 .prijs{
@@ -191,6 +191,48 @@ body {
     padding-left: 10.5em;
 }
 
-.maten-rij{
-    
+/* dit is de collectie html*/
+
+.collection{
+    margin-top: 1em;
+    font-weight: normal;
+}
+
+.bag{
+    margin-top: 1em;
+    font-weight: normal;
+}
+
+.totebag_Img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8.9em;
+}
+
+.bestel_btn a{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 10.5em;
+    margin-bottom: 1em;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 10px 0px 50px rgba(0,0,0,0.2);
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: black;
+}
+
+.jacket{
+    margin-top: 1em;
+    font-weight: normal;
+}
+
+.sticker{
+    margin-top: 1em;
+    font-weight: normal;
 }
